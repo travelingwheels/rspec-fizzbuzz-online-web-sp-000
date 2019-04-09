@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 def fizzBuzz(int)
   if int % 3 == 0 
-   print "Fizz"
+   return "Fizz"
   elsif Integer % 5 == 0
    print "Buzz"
   elsif Integer % 3 == 0 && Integer % 5 == 0
