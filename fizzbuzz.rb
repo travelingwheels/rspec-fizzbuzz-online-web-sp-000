@@ -1,7 +1,7 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
-def fizzBuzz(Integer)
-  if Integer % 3 == 0 
+def fizzBuzz("number .to_i")
+  if "number" % 3 == 0 
    print "Fizz"
   elsif Integer % 5 == 0
    print "Buzz"
